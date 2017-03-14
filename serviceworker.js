@@ -1,8 +1,10 @@
 var CACHE_NAME = 'gih-cache';
 var CACHED_URLS = [
-  'offline.html',
-  'mystyles.css',
-  'dino.png'
+ 'mystyles.css',
+ 'styles.css',
+ 'offline.html', 
+'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">'    
+    
 ];
 
 self.addEventListener('install', function(event) {
