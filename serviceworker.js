@@ -3,7 +3,10 @@ var CACHED_URLS = [
  'mystyles.css',
  'styles.css',
  'offline.html', 
-'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">'    
+ 'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en',
+ 'https://fonts.googleapis.com/icon?family=Material+Icons',
+ 'https://code.getmdl.io/1.3.0/material.teal-red.min.css'    
+    
     
 ];
 
