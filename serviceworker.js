@@ -1,5 +1,5 @@
 var CACHE_NAME = 'gih-cache-v5';
-var BASE_PATH = '/first.html/'
+var BASE_PATH = '/Dfm/';
 var CACHED_URLS = [
   // Our HTML
   'first.html',
@@ -54,7 +54,7 @@ self.addEventListener('fetch', function(event) {
     );
   } else if (
     CACHED_URLS.includes(requestURL.href) ||
-    CACHED_URLS.includes(requestURL.pathname) {
+    CACHED_URLS.includes(requestURL.pathname)) {
     event.respondWith(
       caches.open(CACHE_NAME).then(function(cache) {
         return cache.match(event.request).then(function(response) {
