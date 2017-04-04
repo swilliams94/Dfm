@@ -1,4 +1,4 @@
-var BASE_PATH = '/NAMEOF REPRO/';
+var BASE_PATH = '/Dfm/';
 var CACHE_NAME = 'gih-cache-v7';
 var TEMP_IMAGE_CACHE_NAME = 'temp-cache-v1';
 var newsAPIJSON = "https://newsapi.org/v1/articles?source=bbc-news&apiKey=cb1134c841c64fd1b247f9eb0f74a5c7";
